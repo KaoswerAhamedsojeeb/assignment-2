@@ -1,0 +1,175 @@
+/*-----------------
+ font style part
+ -----------------*/
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/*--------------------------
+ header style part 
+ -----------------------*/
+.header-section {
+    display: flex;
+    background-color: rgb(16, 12, 12);
+    margin: 50px 100px;
+    border-radius: 40px;
+}
+
+.header-text {
+    width: 50%;
+    color: white;
+    padding: 40px 20px 100px 100px;
+}
+
+.header-text h1 {
+    font-size: 45px;
+}
+
+.header-text p {
+    font-size: smaller;
+    color: lightgray;
+}
+
+.header-pic {
+    width: 50%;
+}
+
+.header-image {
+    width: 90%;
+    height: 100%;
+}
+
+/*------------------------
+ middle section style part 
+ --------------------------*/
+.middle-section {
+    display: flex;
+    margin: 50px 100px;
+    border-radius: 40px;
+    margin-top: 100px;
+
+}
+
+.watch-button {
+    background-color: red;
+    border-radius: 10px;
+    padding: 10px 15px;
+    margin-top: 10px;
+}
+
+.watch-button-text {
+    text-decoration: none;
+    color: white;
+}
+
+.fa-angle-right {
+    color: white;
+    margin-left: 5px;
+}
+
+.button-part {
+    background-color: rgb(16, 12, 12);
+    width: 200px;
+    height: 200px;
+    padding-top: 10px;
+    border-radius: 5px;
+
+}
+
+.button-text {
+    display: block;
+    width: 160px;
+    height: 40px;
+    margin: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+button a {
+    text-decoration: none;
+    color: black;
+    font-weight: 800;
+}
+
+#selected {
+    background-color: red;
+
+}
+
+#selected a {
+    color: white;
+}
+
+/*-------------------------
+ blog part section style 
+ -----------------------*/
+
+.blog-part {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 15px;
+    margin-left: 20px;
+
+}
+
+.blog-part-pic {
+    border: 1px solid rgb(176, 179, 181);
+    border-radius: 10px;
+}
+
+.thumbnel img {
+    width: 90px;
+    height: 50px;
+}
+
+.flag {
+    display: flex;
+    margin: 40px 20px 20px 20px;
+}
+
+.vs {
+    margin: 5px;
+    font-weight: 800;
+}
+
+.text {
+    margin: 20px;
+}
+
+.text h4 {
+    text-align: center;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.text p {
+    font-size: smaller;
+    text-align: center;
+    margin-top: 0px;
+}
+
+/*-------------------- 
+footer style  
+-----------------------*/
+.footer-text {
+    text-align: center;
+    padding-top: 80px;
+    background-color: rgb(14, 11, 11);
+    margin-top: 80px;
+    height: 300px;
+}
+
+.footer-text h1 {
+    color: white;
+}
+
+hr {
+    width: 1000px;
+}
+
+.footer-info {
+    font-size: smaller;
+    font-size: 10px;
+    color: lightgray;
+    margin: 20px;
+}
