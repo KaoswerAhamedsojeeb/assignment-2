@@ -173,3 +173,11 @@ hr {
     color: lightgray;
     margin: 20px;
 }
+
+.fa-facebook-square,
+.fa-twitter-square,
+.fa-instagram {
+    color: skyblue;
+    font-size: 2em;
+    margin: 10px 20px;
+}
