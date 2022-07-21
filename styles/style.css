@@ -173,3 +173,78 @@ hr {
     font-size: 2em;
     margin: 10px 20px;
 }
+
+/*---------------------
+ media query style  
+ -------------------*/
+/* for mobile acreen */
+@media only screen and (max-width:768px) {
+
+    /* header style  */
+    .header-section {
+        display: block;
+        margin: 50px 5px;
+        border-radius: 40px;
+    }
+
+    .header-text h1 {
+        font-size: 30px;
+    }
+
+    .header-pic {
+        margin: 10px;
+    }
+
+    /* button style  */
+    .button-part {
+        background-color: rgb(185, 178, 178);
+        margin-bottom: 20px;
+        margin-left: 80px;
+    }
+
+    /* blog style  */
+
+    .blog-part {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .middle-section {
+        display: block;
+        width: 100%;
+        margin: 0px;
+        border-radius: 40px;
+        margin-top: 1px;
+    }
+
+
+    .thumbnel img {
+        width: 100%;
+        height: 175px;
+    }
+
+    .header-text {
+        padding: 30px 20px 50px 80px;
+    }
+
+    /* footer style  */
+    .footer-text {
+        height: 100%;
+    }
+
+    .footer-info {
+        display: block;
+    }
+
+
+}
+
+/* ------------------
+For i pad screen
+-------------------  */
+@media only screen and (min-width:769px) and (max-width:1280) {
+    .blog-part {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
